@@ -143,3 +143,12 @@ p {
 .card-content {
   padding: 1.5em;
 }
+
+#section-b .card {
+  font-family: "Special Elite";
+  letter-spacing: 0.2em;
+}
+
+#section-b h3 {
+  font-size: 2.4em;
+}
