@@ -41,9 +41,24 @@ p {
   position: absolute;
   background-image: url("./img/laptop-cartoon.png");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
   z-index: -1;
   opacity: 0.4;
+}
+
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#showcase .header_imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 4em;
+  padding-top: 100px;
+  padding-bottom: 0;
 }
