@@ -161,7 +161,7 @@ p {
 }
 
 #section-b .fa-arrow-circle-down {
-  font-size: 5em;
+  font-size: 3em;
 }
 
 #section-b .fa-arrow-circle-down:hover {
@@ -216,4 +216,27 @@ p {
   background-color: rgb(14, 14, 14);
   color: #fff;
   text-align: center;
+}
+
+/* QUERIESSTYLES */
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+  }
+  .content-wrap,
+  #section-b ul {
+    grid-column: 2/4;
+  }
+
+  .box,
+  #main-footer div {
+    grid-column: span 2;
+  }
+
+  #section-b ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
