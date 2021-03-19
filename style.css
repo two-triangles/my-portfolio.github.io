@@ -92,7 +92,7 @@ p {
 /* SECTION A STYLES */
 
 #section-a {
-  background-color: #fffff9;
+  background-color: #ffffff;
   color: #3f3f3f;
   padding-bottom: 2em;
   font-family: "Special Elite";
@@ -150,7 +150,7 @@ p {
 }
 
 #section-b h3 {
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 #section-b .fa-arrow-circle-down {
@@ -164,4 +164,18 @@ p {
 
 #section-b a {
   color: #fff;
+}
+
+/* SECTION C STYLES */
+
+#section-c {
+  background-color: #ffffff;
+  color: #3f3f3f;
+  padding: 2em;
+  font-family: "Special Elite";
+  font-size: 1.1em;
+}
+
+#section-c h2 {
+  font-size: 2em;
 }
