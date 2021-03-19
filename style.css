@@ -150,5 +150,18 @@ p {
 }
 
 #section-b h3 {
-  font-size: 2.7em;
+  font-size: 2.3em;
+}
+
+#section-b .fa-arrow-circle-down {
+  font-size: 5em;
+}
+
+#section-b .fa-arrow-circle-down:hover {
+  font-size: 5.5em;
+  color: #69ddb7;
+}
+
+#section-b a {
+  color: #fff;
 }
