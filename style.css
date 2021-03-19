@@ -99,9 +99,11 @@ p {
   font-size: 1.1em;
 }
 
-#section-a .fa-pencil {
-  font-size: 4em;
+#section-a img {
+  margin: 0 auto;
   padding-top: 30px;
+  width: 220px;
+  border-radius: 100%;
 }
 
 /* SECTION B STYLES */
