@@ -52,13 +52,33 @@ p {
 #showcase h1 {
   padding-top: 100px;
   padding-bottom: 0;
+  outline: 1px solid white;
 }
 
 #showcase .header_imgs {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-size: 4em;
-  padding-top: 100px;
+  font-size: 4.8em;
+  padding-top: 80px;
   padding-bottom: 0;
+  outline: 1px solid white;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* SECTION A STYLES */
+
+#section-a {
+  background-color: #fffff9;
+  color: #3f3f3f;
+  padding-bottom: 2em;
+}
+
+#section-a .fa-pencil {
+  font-size: 4em;
+  padding-top: 30px;
 }
