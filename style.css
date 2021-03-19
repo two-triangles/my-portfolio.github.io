@@ -179,3 +179,21 @@ p {
 #section-c h2 {
   font-size: 2em;
 }
+
+/* SECTION D STYLES */
+
+#section-d {
+  font-family: "Special Elite";
+}
+
+#section-d h2 {
+  font-size: 1.8em;
+}
+
+#section-d p {
+  font-size: 1.1em;
+}
+
+#section-d .box:first-child {
+  background-color: #4ba084;
+}
