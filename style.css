@@ -184,7 +184,17 @@ p {
 }
 
 #section-c h2 {
-  font-size: 2em;
+  font-size: 2.2em;
+  display: inline-block;
+}
+
+#section-c p {
+  font-size: 1.3em;
+}
+
+#section-c #youtube_img {
+  font-size: 6em;
+  color: rgb(215, 47, 47);
 }
 
 /* SECTION D STYLES */
