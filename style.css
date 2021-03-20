@@ -82,10 +82,18 @@ p {
 
 /* HEADER STYLES */
 
-#socials_banner .header_imgs {
+#socials_banner {
+  width: 100%;
+  height: auto;
+}
+
+.header_imgs {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #socials_banner .fa {
