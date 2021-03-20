@@ -220,7 +220,7 @@ p {
 #section-c {
   background-color: #ffffff;
   color: #3f3f3f;
-  outline: 1px solid black;
+
   font-family: "Special Elite";
   font-size: 1.1em;
 }
@@ -237,6 +237,7 @@ p {
 
 .fa-laptop {
   font-size: 4.8em;
+  padding-top: 20px;
 }
 
 .skills_content {
@@ -248,6 +249,7 @@ p {
   padding-left: 0;
   margin: 0;
   font-size: 1.2em;
+  padding-bottom: 20px;
 }
 
 .skills_content .fa-circle {
@@ -261,7 +263,6 @@ p {
 
 #section-d h2 {
   font-size: 2em;
-  color: #4ba084;
 }
 
 #section-d p {
@@ -276,6 +277,9 @@ p {
   background-color: #4ba084;
 }
 
+#section-d .box:nth-child(2) .content-title {
+  color: #4ba084;
+}
 /* FOOTER STYLES */
 
 #main-footer {
