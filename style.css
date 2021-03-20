@@ -291,6 +291,10 @@ p {
 #section-d .box:nth-child(2) .content-title {
   color: #4ba084;
 }
+
+#section-d .fa-circle {
+  font-size: 0.5em;
+}
 /* FOOTER STYLES */
 
 #main-footer {
