@@ -288,16 +288,13 @@ p {
   background-color: #4ba084;
 }
 
-#section-d .box_music {
+#section-d .box:nth-child(2) {
   position: relative;
-  color: #ffffff;
+  background-color: #3f3f3f;
 }
 
-#section-d .box_bg_img {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  background-image: url("./img/radio-pattern.png");
+#section-d .box_music {
+  color: #ffffff;
 }
 
 #section-d .fa-circle {
@@ -326,7 +323,7 @@ p {
 
 /* QUERIESSTYLES */
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
   .grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
@@ -346,5 +343,27 @@ p {
     display: flex;
     justify-content: space-around;
     column-gap: 2em;
+  }
+
+  #section-d .fa-youtube {
+    font-size: 12em;
+    padding-bottom: 50px;
+    color: #4ba084;
+  }
+
+  #section-d .fa-youtube:hover {
+    font-size: 13em;
+  }
+
+  #section-d .box:nth-child(2) .yt_container {
+    background-color: #3f3f3f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #section-d .box:nth-child(2) h2 {
+    font-size: 5em;
   }
 }
