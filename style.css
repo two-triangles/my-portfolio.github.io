@@ -288,13 +288,33 @@ p {
   background-color: #4ba084;
 }
 
-#section-d .box:nth-child(2) .content-title {
-  color: #4ba084;
+#section-d .box_music {
+  position: relative;
+  color: #ffffff;
+}
+
+#section-d .box_bg_img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-image: url("./img/radio-pattern.png");
 }
 
 #section-d .fa-circle {
   font-size: 0.5em;
 }
+
+#section-d .fa-youtube {
+  font-size: 6em;
+  padding-bottom: 50px;
+  color: #4ba084;
+}
+
+#section-d .fa-youtube:hover {
+  font-size: 6.2em;
+  color: #ffffff;
+}
+
 /* FOOTER STYLES */
 
 #main-footer {
