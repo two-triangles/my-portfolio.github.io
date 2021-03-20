@@ -326,11 +326,12 @@ p {
 
 /* QUERIESSTYLES */
 
-/* @media (min-width: 700px) {
+@media (min-width: 700px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
   }
+
   .content-wrap,
   #section-b ul {
     grid-column: 2/4;
@@ -343,6 +344,7 @@ p {
 
   #section-b ul {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    column-gap: 2em;
   }
-} */
+}
