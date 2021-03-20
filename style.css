@@ -86,8 +86,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 #socials_banner .fa {
@@ -106,7 +104,7 @@ p {
   color: #3f3f3f;
   padding-bottom: 2em;
   font-family: "Special Elite";
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 #section-a img {
@@ -158,6 +156,9 @@ p {
 }
 
 .card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1.5em;
 }
 
@@ -219,7 +220,7 @@ p {
 }
 
 #section-d p {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 #section-d .box {
