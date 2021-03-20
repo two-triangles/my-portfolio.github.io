@@ -71,7 +71,7 @@ p {
 #showcase h2 {
   padding-bottom: 0;
   font-family: "Special Elite";
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: 0.25em;
   color: #ffffff;
 }
@@ -130,6 +130,10 @@ p {
 
 #section-a p {
   text-align: left;
+}
+
+#section-a .fa-circle {
+  font-size: 0.5em;
 }
 
 #section-a span.big_bold {
