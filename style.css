@@ -225,8 +225,9 @@ p {
   font-size: 1.1em;
 }
 
-#section-c h2 {
+#section-c h3 {
   font-size: 1.5em;
+  color: #4ba084;
 }
 
 #section-c p {
@@ -234,20 +235,24 @@ p {
   margin-top: 20px;
 }
 
-#section-c .skills_title {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  margin: auto;
-  justify-content: space-evenly;
-  align-items: center;
-  outline: 1px solid black;
-}
-
 .fa-laptop {
   font-size: 4.8em;
 }
 
+.skills_content {
+  text-align: center;
+}
+
+.skills_content ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.skills_content .fa-circle {
+  font-size: 0.5em;
+}
 /* SECTION D STYLES */
 
 #section-d {
@@ -256,6 +261,7 @@ p {
 
 #section-d h2 {
   font-size: 2em;
+  color: #4ba084;
 }
 
 #section-d p {
