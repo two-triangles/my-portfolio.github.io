@@ -75,18 +75,20 @@ p {
   color: #ffffff;
 }
 
-#showcase .header_imgs {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-size: 4.8em;
-  padding-top: 80px;
-  padding-bottom: 0;
-}
-
 #showcase .content-wrap,
 #section-a .content-wrap {
   padding: 0 1.5em;
+}
+
+/* HEADER STYLES */
+
+#socials_banner .header_imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 3.6em;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* SECTION A STYLES */
