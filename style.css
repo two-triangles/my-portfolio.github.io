@@ -269,6 +269,17 @@ p {
   font-size: 1.2em;
 }
 
+#section-d p.quote {
+  font-size: 1.6em;
+  font-weight: bolder;
+}
+
+#section-d p.author {
+  color: #3f3f3f;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
 #section-d .box {
   padding: 2em;
 }
