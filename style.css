@@ -70,6 +70,7 @@ p {
 
 #showcase h2 {
   padding-bottom: 0;
+  margin-bottom: 30px;
   font-family: "Special Elite";
   font-size: 2em;
   letter-spacing: 0.25em;
@@ -86,6 +87,10 @@ p {
 #socials_banner {
   width: 100%;
   height: auto;
+}
+
+#socials_banner a {
+  color: #fff;
 }
 
 .header_imgs {
