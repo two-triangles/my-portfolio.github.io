@@ -207,6 +207,11 @@ p {
   font-size: 2em;
 }
 
+#section-b h3:hover {
+  color: #4ba084;
+  text-shadow: 0.5px 0.5px #fff;
+}
+
 #section-b .fa-arrow-circle-down {
   font-size: 3em;
 }
